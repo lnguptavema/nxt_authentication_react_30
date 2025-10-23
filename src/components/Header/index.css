@@ -10,6 +10,9 @@
   width: 40vw;
   align-items: center;
 }
+li {
+  list-style-type: none;
+}
 .logoutButton {
   background-color: #0b69ff;
   color: white;
