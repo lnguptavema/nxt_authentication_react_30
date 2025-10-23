@@ -1,0 +1,54 @@
+.websiteLoginImage {
+  height: 35vh;
+  width: 35vw;
+}
+.websiteLogoImage {
+  height: 8vh;
+  width: 15vw;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  margin: 5px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.cardTwo {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 20vw;
+  padding: 30px;
+}
+.Textinput {
+  height: 5vh;
+  padding: 10px;
+  width: 18vw;
+  border-radius: 10px;
+  border: 0px;
+  margin: 5px;
+  background-color: #d7dfe9;
+}
+.loginButton {
+  background-color: #0b69ff;
+  color: white;
+  height: 7vh;
+  align-self: center;
+  margin: 5px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 8vw;
+  border-radius: 10px;
+}
+.errormsg {
+  color: red;
+  font-size: 15px;
+}

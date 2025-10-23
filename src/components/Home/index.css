@@ -1,0 +1,26 @@
+.homeContainer {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+.homeHeading {
+  font-size: 65px;
+}
+.homeParagraph {
+  width: 35vw;
+}
+.shopButton {
+  height: 7vh;
+  width: 8vw;
+  color: white;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}
+.homeImage {
+  height: 70vh;
+  width: 35vw;
+  margin: 5px;
+}
