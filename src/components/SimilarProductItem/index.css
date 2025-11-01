@@ -1,0 +1,32 @@
+.similarProductImg {
+  height: 35vh;
+  width: 20vw;
+  border-radius: 10px;
+}
+.priceSimilar {
+  font-weight: 600;
+}
+.similarProductListItem {
+  list-style-type: none;
+  margin: 10px;
+}
+.starImg {
+  height: 3vh;
+  width: 2vw;
+  margin: 5px;
+}
+.priceContainer {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
+.ratingStarCard1 {
+  background-color: #3b82f6;
+  border-radius: 10px;
+  display: flex;
+  height: 5vh;
+  width: 5vw;
+  margin: 10px;
+  color: white;
+  align-items: center;
+}
