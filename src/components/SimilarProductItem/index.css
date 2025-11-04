@@ -30,3 +30,44 @@
   color: white;
   align-items: center;
 }
+@media (width<=666px) {
+  .similarProductImg {
+    height: 15vh;
+    width: 20vw;
+    border-radius: 10px;
+  }.similarbrand{
+    font-size: 10px;
+  }
+  .ratingSimilar {
+    font-size: 10px;
+  }
+  .priceSimilar {
+    font-weight: 600;
+  }
+  .similarProductListItem {
+    list-style-type: none;
+    margin: 10px;
+  }
+  .starImg {
+    height: 2vh;
+    width: 2vw;
+  }
+  .priceContainer {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+  }
+  .ratingStarCard1 {
+    background-color: #3b82f6;
+    border-radius: 10px;
+    display: flex;
+    height: 4vh;
+    width: 15vw;
+    margin: 10px;
+    color: white;
+    align-items: center;
+  }
+  .titleSimilar {
+    font-size: 10px;
+  }
+}

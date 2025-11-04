@@ -1,80 +1,3 @@
-/* .mainProductImg {
-  width: 30vw;
-  height: 80vh;
-  border-radius: 15px;
-}
-.countButtons {
-  height: 3vh;
-  width: 1vw;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  display: flex;
-  outline: none;
-  cursor: pointer;
-  justify-content: center;
-}
-.mainProductContainer {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  align-items: center;
-}
-.ratingContainer {
-  display: flex;
-  align-items: center;
-}
-.starImg {
-  height: 3vh;
-  width: 2vw;
-  margin: 5px;
-}
-.AddCartButton {
-  background-color: #3b82f6;
-  border-radius: 10px;
-  outline: none;
-  cursor: pointer;
-  border: 0px;
-  height: 7vh;
-  width: 10vw;
-  color: white;
-}
-.similarProductsListContainer {
-  display: flex;
-}
-.countContainer {
-  display: flex;
-  justify-content: space-between;
-  width: 8vw;
-  text-align: center;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-}
-.spanBrand {
-  font-weight: 700;
-}
-.headingSimilar {
-  margin-left: 30px;
-}
-.ratingStarCard1 {
-  background-color: #3b82f6;
-  border-radius: 10px;
-  display: flex;
-  width: 6vw;
-  margin: 10px;
-  color: white;
-  align-items: center;
-}
-.description {
-  width: 30vw;
-}
-.mainProductCard2 {
-  margin: 20px;
-  padding: 5px;
-} */
-
 .product-item-details-container {
   display: flex;
   justify-content: center;
@@ -355,5 +278,12 @@
 @media screen and (min-width: 768px) {
   .product-not-found-heading {
     font-size: 48px;
+  }
+}
+@media (width<=766px) {
+  .similar-products-list {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
   }
 }
